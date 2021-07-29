@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Snake Game",
+  "version": "1.0",
+  "description": "This extension shows all the pieces of a chrome extension with a browser action popup",
+  "browser_action": {
+    "default_icon": "snakeicon.png",
+    "default_popup": "popup.html"
+    
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
