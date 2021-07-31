@@ -16,7 +16,7 @@ function setup() {
   createCanvas(400, 400);
   colorMode(HSB, 360, 100, 100);
   backgroundColor = color('gray');
-  frameRate(20);
+  frameRate(10);
   playerSnake = new Snake();
   currentApple = new Apple();
   isGameOver = false;
